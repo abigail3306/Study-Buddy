@@ -1,0 +1,13 @@
+﻿--This query finds a test score that is greater than or equal to 
+--the users inputed avg_sol_scale_score, in a subject in which the user also specifys
+--Parameters: Gender, School name, Grade, Subject, SOL Score
+
+SELECT tstScore.gender, sch.sch_name, tstScore.TEST_LEVEL, tstScore.subject, tstScore.avg_sol_scale_score 
+FROM Test_Score AS tstScore
+JOIN School AS sch
+ON sch.sch_num = tstScore.sch_num 
+WHERE sch.sch_name = 'West Point High'
+AND tstScore.gender = 'M'
+AND tstScore.test_level = '5'
+AND tstScore.subject = 'SCI'
+AND tstScore.avg_sol_scale_score >= '515';

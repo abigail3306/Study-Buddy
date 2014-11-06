@@ -1,0 +1,10 @@
+﻿--This query finds a particuler subjects avg sol score at a specific school
+--Parameters: subject, school
+
+SELECT ROUND((AVG(avg_sol_scale_score))::numeric, 0) 
+AS avg_sol_scale_score, subject, test_level 
+FROM Test_Score AS tst
+JOIN School as sch
+ON tst.sch_num = sch.sch_num
+Where (sch.sch_name = 'West Point High' AND test_level = '3' AND tst.subject = 'SCI')
+GROUP BY tst.subject, test_level;

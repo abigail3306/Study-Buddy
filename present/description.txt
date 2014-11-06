@@ -1,0 +1,3 @@
+Tool that enables students (parents) to compare individual student performance
+to peers within the local division or across the state.  Offers activites/lesson
+plans based on learning needs for remediation.

@@ -1,0 +1,76 @@
+/* 
+    Document   : style
+    Created on : Apr 6, 2013, 4:34:34 PM
+    Author     : Abigail
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root
+{ 
+    display: block;
+}
+body
+{
+    background-image: url('escheresque.png');
+}
+h1,h2
+{
+    background-image: url('purple.png');
+    color: yellow;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+    display: block;
+}
+h3
+{
+    text-transform: uppercase;
+}
+h4
+{
+    background-image: url('purple.png');
+    color: yellow;
+}
+form
+{
+    padding: 5px;
+    
+}
+form input
+{
+    padding: 3px;
+}
+ form.entry
+{
+    width: 300px;
+}
+table
+{
+    
+    width: 300px;   
+    width: 300px;  
+
+}
+div_num
+{
+     
+    left:200px
+}
+#container
+{
+    width: 850px;
+    display: block;
+    border-top: 5px solid black;
+    text-align: center;
+}
+.resource
+{
+    background-color: beige;
+    border-bottom: 1px solid black;
+    width: 400px;
+    height: 350px;
+    display: inline-table;
+    padding-left: 10px;
+    padding-right: 10px;
+}
