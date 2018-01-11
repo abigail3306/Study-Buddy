@@ -1,9 +1,4 @@
 Title: Study Buddy
-Ownership: Abigail Liskey
-	HTML, CSS - Abigail Liskey
-	Queries - Everyone
-	Java - Tris, Everyone
-	Schema - Everyone
 Course/Project: Database Design & Application
 University/Institution: James Madison University
 Written in: HTML, CSS, Java, PostgreSQL, PgAdmin, JavaScript, SQL
